@@ -9,6 +9,7 @@ import Alerts from "./components/Alerts";
 import "./index.css";
 import Carousel from "./components/Carousel";
 import Login from "./components/Login";
+import Calender from "./components/Calender";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/carousel" element = {<Carousel/>}/>
         <Route path="/alerts" element={<Alerts />} />
         <Route path="/login" element={<Login />} />
+      <Route path="/calender" element={<Calender/>}/>
       </Routes>
     </BrowserRouter>
   );

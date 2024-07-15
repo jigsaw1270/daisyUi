@@ -14,6 +14,7 @@ const Navbar = () => {
           <li><Link to="/cards">Cards</Link></li>
           <li><Link to="/carousel">Carousel</Link></li>
           <li><Link to="/alerts">Alerts</Link></li>
+          <li><Link to="/calender">Calender</Link></li>
           <li><Link to="/login">Log in</Link></li>
         </ul>
       </div>
